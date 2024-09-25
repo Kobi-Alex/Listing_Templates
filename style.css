@@ -53,13 +53,13 @@
 .banner{
     display: flex;
     position: relative;
-    height: 620px;
+    height: 580px;
     /* background-image: url(Resourses/AF_Photo_11.jpg); */
     background-image: linear-gradient(to bottom right, #00bfffef, #4318b8e8), url(Resourses/AF_Header.jpg);
     /* background-image: linear-gradient(to bottom right, #CCFFAA, #1E5B53), url(Resourses/AF_Photo_11.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position:bottom;
     font-family: 'Montserrat', sans-serif;
     z-index: 3;
 }
@@ -86,11 +86,11 @@
 .title-banner{
     position: relative;
     color: #f0f0f0;
-    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.221),
+    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.301),
                  10px 20px 5px rgba(0, 0, 0, 0.181),
                  -10px 20px 5px rgba(0, 0, 0, 0.103);
 
-    font-size: 90px;
+    font-size: 96px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -106,23 +106,20 @@
 
 
 /* SECTION HOME */
-.home
-{
+.home{
     display: flex; 
     position: relative;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 760px;
+    height: 800px;
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .image-home{
-    display: flex;
-    justify-content: center;
-    height: 420px;
-    width: 520px;
+    display: block;
+    height: 400px;
+    width: 400px;
     /* border: 0.1rem solid #f1f1f1;
     border-radius: 10px; */
 }
@@ -132,27 +129,25 @@
     max-width: 100%;
 }
 
-
-.content-home
-{
+.content-home{
+    display: block;
     position: relative;
-    width: 600px;
+    width: 620px;
     /* top: 230px;
     float: right;
     right: 10%; */
 }
 
-.title-home
-{
+.title-home{
     color:#1d1d1d;
     font-size: 38px;
     line-height: 48px;
     font-weight: 500;
 }
-.description-home
-{
+
+.description-home{
     margin-top:  40px;
-    margin-bottom: 40px;
+    margin-bottom: 56px;
     color: #787878;
 
     font-size: 18px;
@@ -160,18 +155,14 @@
     font-family: "Nunito Sans";
 }
 
-.price-home
-{
-    margin-bottom: 40px;
+.price-home{
+    margin-bottom: 36px;
     color: #1d1d1d;
-
-    font-size: 30px;
+    font-size: 36px;
     font-weight:bold;
 }
 
-
-.button-home
-{
+.button-home{
     display: block;
     position: relative;
     height: 55px;
@@ -188,10 +179,77 @@
     text-align: center;
 }
 
-.button-home:hover
-{
+.button-home:hover{
    opacity: 0.7;
 }
+
+
+/* SECTION RELATION PARTS */
+.content-relationparts{
+    position: relative;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.title-relationparts{
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: #191919;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.cards-relationparts{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.card-relationparts{
+    position: relative;
+    width: auto;
+}
+
+.part-image{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+
+.part-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.card-relationparts hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SECTION ABOUT */
 .about
