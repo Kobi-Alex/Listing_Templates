@@ -120,8 +120,6 @@
     display: block;
     height: 400px;
     width: 400px;
-    /* border: 0.1rem solid #f1f1f1;
-    border-radius: 10px; */
 }
 
 .image-home img{
@@ -188,7 +186,9 @@
 .content-relationparts{
     position: relative;
     width: 100%;
+    margin-bottom: 60px;
     font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -212,7 +212,10 @@
 }
 
 .card-relationparts{
+    display: flex;
+    flex-direction: column;
     position: relative;
+    align-items: center;
     width: auto;
 }
 
@@ -231,17 +234,38 @@
 
 
 .card-relationparts hr {
-    display: block;
+    display: flex;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1.5px solid #ccc;
     margin: 1em 0;
     padding: 0;
+    width: 100%;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
 }
 
+.card-relationparts p{
+    font-weight: 500;
+    font-size: 16px;
+}
 
+.button-relationparts{
 
+    display: block;
+    position: relative;
+    height: 55px;
+    width: 180px;
+    background-color: #10c9c3;
+    border-radius: 5px;
+    color: #ffffff;
 
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 55px;
+    text-decoration: none;
+    text-align: center;
+}
 
 
 
