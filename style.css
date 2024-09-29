@@ -55,7 +55,7 @@
     position: relative;
     height: 580px;
     /* background-image: url(Resourses/AF_Photo_11.jpg); */
-    background-image: linear-gradient(to bottom right, #00bfffef, #4318b8e8), url(Resourses/AF_Header.jpg);
+    background-image: linear-gradient(to bottom right, #828282, #727272a8), url(Resourses/AF_Header.jpg);
     /* background-image: linear-gradient(to bottom right, #CCFFAA, #1E5B53), url(Resourses/AF_Photo_11.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,8 +188,6 @@
     width: 100%;
     margin-bottom: 60px;
     font-family: 'Montserrat', sans-serif;
-
-
 }
 
 .title-relationparts{
@@ -258,6 +256,7 @@
     background-color: #10c9c3;
     border-radius: 5px;
     color: #ffffff;
+    margin-top: 15px;
 
     font-size: 12px;
     font-weight: 600;
@@ -268,20 +267,13 @@
 }
 
 
-
-
-
-
-
-
-
 /* SECTION ABOUT */
 .about
 {
     position: relative;
     height: 420px;
     width: 100%;
-    background-color: #9ed3fc22;
+    background-color: #4fa3e76b;
     font-family: "Montserrat";
 }
 
@@ -318,53 +310,69 @@
 /* SECTION PAYMENT */
 .payment
 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     position: relative;
-    height: 420px;
     width: 100%;
-    font-family: "Montserrat";
+    height: 500px;
+    background-color: #79c5ff24;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 116px;
+    
 }
 
 .content-payment
 {
     position: relative;
-    width: 100%;
-    text-align: center;
-    margin: auto;
+    width: 72%;
+
 }
+
+.title-payment{
+
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height:20px;
+    color: #191919;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+.text-payment
+{
+    display: block;
+    position: relative;
+    color: #787878;
+
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: "Nunito Sans";
+}
+
+.icons-block-payment{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
 
 .icon-payment{
     display: flex;
     position: relative;
-    width: 280px;
-    height: 64px;
+    justify-content: center;
+    width: 128px;
+    height: 48px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
-    background-color: #ffffff22;
+    background-color: #ffffff99;
     border-radius: 0.3rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+    box-shadow: rgba(100, 100, 111, 0.329) 0px 7px 29px 0px;
 }
-
-.logo-payment{
-    position: relative;
-    left: 20px;
-}
-
-.icon-payment svg {
-    position: relative;
-    right: 10px;
-
-}
-
-.icon-payment p{
-
-    position: relative;
-    margin-right: 10px;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    font-family: "Montserrat";
-
-}
-
