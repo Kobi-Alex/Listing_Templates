@@ -55,7 +55,7 @@
     position: relative;
     height: 580px;
     /* background-image: url(Resourses/AF_Photo_11.jpg); */
-    background-image: linear-gradient(to bottom right, #828282, #727272a8), url(Resourses/AF_Header.jpg);
+    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/AF_Header.jpg);
     /* background-image: linear-gradient(to bottom right, #CCFFAA, #1E5B53), url(Resourses/AF_Photo_11.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,10 +85,10 @@
 
 .title-banner{
     position: relative;
-    color: #f0f0f0;
-    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.301),
-                 10px 20px 5px rgba(0, 0, 0, 0.181),
-                 -10px 20px 5px rgba(0, 0, 0, 0.103);
+    color: #177ffd;
+    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.455),
+                 10px 20px 5px rgba(0, 0, 0, 0.223),
+                 -10px 20px 5px rgba(0, 0, 0, 0.145);
 
     font-size: 96px;
     font-weight: 800;
@@ -97,11 +97,16 @@
 
 .text-banner{
     position: relative;
-    color: #eaeaea;
-    font-size: 22px;
+    color: #fbfbfb;
+    font-size: 24px;
     font-weight: 500;
     margin: 12px;
     text-transform: uppercase;
+    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.405),
+                 10px 20px 5px rgba(0, 0, 0, 0.181),
+                 -10px 20px 5px rgba(0, 0, 0, 0.103);
+
+    
 }
 
 
@@ -254,6 +259,7 @@
     height: 55px;
     width: 180px;
     background-color: #10c9c3;
+
     border-radius: 5px;
     color: #ffffff;
     margin-top: 15px;
@@ -312,20 +318,18 @@
 {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
     width: 100%;
     height: 500px;
     background-color: #79c5ff24;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 116px;
-    
 }
 
 .content-payment
 {
     position: relative;
-    width: 72%;
+    width: 80%;
 
 }
 
@@ -367,7 +371,7 @@
     display: flex;
     position: relative;
     justify-content: center;
-    width: 128px;
+    width: 140px;
     height: 48px;
     align-items: center;
     justify-content: center;
