@@ -22,9 +22,9 @@
     z-index: 2;
 }
 
-.logo{  
+.logo{
     display: flex;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
@@ -33,7 +33,7 @@
     position: relative;
     list-style: none;
     margin: 0 12px;
-    
+
 }
 
 .navbar ul li a{
@@ -107,13 +107,13 @@
                  10px 20px 5px rgba(0, 0, 0, 0.181),
                  -10px 20px 5px rgba(0, 0, 0, 0.103);
 
-    
+
 }
 
 
 /* SECTION HOME */
 .home{
-    display: flex; 
+    display: flex;
     position: relative;
     align-items: center;
     justify-content: space-evenly;
@@ -193,9 +193,8 @@
 .content-relationparts{
     position: relative;
     width: 100%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 100px;
 }
 
 .title-relationparts{
@@ -214,7 +213,6 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-
 }
 
 .card-relationparts{
@@ -239,7 +237,7 @@
 }
 
 
-.card-relationparts hr {
+.card-relationparts hr{
     display: flex;
     height: 1px;
     border: 0;
@@ -275,51 +273,13 @@
 }
 
 
-/* SECTION ABOUT */
-.about{
-    position: relative;
-    height: 420px;
-    width: 100%;
-    background-color: #4fa3e76b;
-    font-family: "Montserrat";
-}
-
-.content-about{
-    position: relative;
-    width: 830px;
-    text-align: center;
-    margin: auto;
-}
-
-.title-about{
-    font-size: 30px;
-    letter-spacing: 0px;
-    line-height: 60px;
-    color: #191919;
-    font-weight: 500;
-}
-
-.text-about{
-    font-size: 16px;
-    letter-spacing: 0px;
-    line-height: 24px;
-    margin-top:  21px;
-    margin-bottom: 36px;
-    color: #787878;
-    font-weight: 400;
-    font-family: "Nunito Sans";
-}
-
-
-/* SECTION PAYMENT */
+/* SECTION PAYMENT & SHIPPING */
 .payment{
-    display: flex;
-    align-items: center;
     position: relative;
     width: 100%;
-    height: 550px;
-    background-color: #79c5ff24;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
+    background-color: #79c5ff24;
 }
 
 .content-payment{
@@ -328,14 +288,15 @@
     justify-content: space-around;
     position: relative;
     width: 100%;
+    /* top: 86px; */
 }
 
 .title-payment{
     position: relative;
     color: #191919;
     /* left: -1.3%; */
-
-    font-size: 50px;
+    top: 30px;
+    font-size: 30px;
     /* letter-spacing: 0.4px; */
     /* line-height:20px; */
     font-weight: 600;
@@ -346,10 +307,9 @@
 .text-payment-block{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     position: relative;
-    width: 50%;
-
+    width: 60%;
+    padding: 30px 0;
 }
 
 .text-payment{
@@ -369,7 +329,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .icon-payment{
@@ -391,13 +351,13 @@
 
 
 /* SECTION SHIPPING */
-.shipping{
+/* .shipping{
+    display: block;
     position: relative;
-    display: flex;
-    align-items: center;
     width: 100%;
-    height: 550px;;
+    height: 500px;
     font-family: 'Montserrat', sans-serif;
+    background-color: #79c5ff24;
 }
 
 .shipping-content{
@@ -410,7 +370,7 @@
 
 .title-shipping{
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -421,4 +381,4 @@
     justify-content: space-around;
     position: relative;
     width: 50%;
-}
+} */
