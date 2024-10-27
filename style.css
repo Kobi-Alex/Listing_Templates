@@ -50,22 +50,20 @@ section{
 }
 
 .navbar li a:hover{
-    color: #10c9c3;
+    color: #177efd;
 }
 
 
 /* SECTION BANNER */
 .banner{
-    display: flex;
+    display: grid;
     position: relative;
-    height: 580px;
     /* background-image: url(Resourses/AF_Photo_11.jpg); */
-    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/AF_Header.jpg);
+    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/AF_Photo_15.jpg);
     /* background-image: linear-gradient(to bottom right, #CCFFAA, #1E5B53), url(Resourses/AF_Photo_11.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:bottom;
-    font-family: 'Montserrat', sans-serif;
+    background-attachment: fixed;
     z-index: 3;
 }
 
@@ -77,8 +75,8 @@ section{
     width: 100%;
     height: 100%;
     background-color: rgba(103, 103, 103, 0.678);
-} */
-
+    } */
+    
 .content-banner{
     position: relative;
     display: flex;
@@ -86,11 +84,14 @@ section{
     align-items: center;
     justify-content:center;
     width: 100%;
+    padding: 15% 0;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title-banner{
     position: relative;
-    color: #177ffd;
+    color: #177efd;
     text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.455),
                  10px 20px 5px rgba(0, 0, 0, 0.223),
                  -10px 20px 5px rgba(0, 0, 0, 0.145);
@@ -142,33 +143,39 @@ section{
     display: block;
     position: relative;
     width: 620px;
-    /* top: 230px;
-    float: right;
-    right: 10%; */
+
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Nunito Sans";
+    color: #787878;
 }
 
 .title-home{
     color:#1d1d1d;
-    font-size: 38px;
+    font-size: 34px;
     line-height: 48px;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partnumber-home{
+    margin-top: 12px;
 }
 
 .description-home{
-    margin-top:  40px;
-    margin-bottom: 56px;
-    color: #787878;
-
-    font-size: 18px;
-    line-height: 28px;
-    font-family: "Nunito Sans";
+    margin-top: 20px;
+}
+.specification-home{
+    margin-top: 16px;
 }
 
 .price-home{
-    margin-bottom: 36px;
+    margin-top: 66px;
+    margin-bottom: 40px;
     color: #1d1d1d;
     font-size: 36px;
     font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button-home{
@@ -176,8 +183,8 @@ section{
     position: relative;
     height: 55px;
     width: 180px;
-    background-color: #10c9c3;
-    border-radius: 2%;
+    background-color: #35aef4;
+    border-radius: 5px;
     color: #ffffff;
 
     font-size: 12px;
@@ -186,28 +193,42 @@ section{
     line-height: 55px;
     text-decoration: none;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .button-home:hover{
-   opacity: 0.7;
+    border: solid 2px #35aef4;
+    background-color: #ffffff;
+    color: #0093e8;
 }
 
 
 /* SECTION RELATION PARTS */
 .content-relationparts{
-    position: relative;
+    position: relative;    
     width: 100%;
-    /* margin-bottom: 50px; */
+    height: auto;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 5.5%;
 }
 
 .title-relationparts{
-    font-size: 30px;
+    display: block;
+    position:relative;
+
+    /* font-size: 30px;
     letter-spacing: 0px;
     line-height: 60px;
     color: #191919;
     font-weight: 500;
-    text-transform: capitalize;
+    text-align: center; */
+
+
+    color: #1b1b1b;
+    font-size: 26px;
+    letter-spacing: 0.4px;
+    line-height: 60px; 
+    font-weight: 600;
     text-align: center;
 }
 
@@ -239,16 +260,15 @@ section{
     max-height: 100%;
 }
 
-
 .card-relationparts hr{
     display: flex;
     height: 1px;
     border: 0;
-    border-top: 1.5px solid #ccc;
+    /* border-top: 1.5px solid #acdaff; */
     margin: 1em 0;
     padding: 0;
     width: 100%;
-    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
+    background-image:linear-gradient(to right, #ffffff00, #8ac6ffe7, #ffffff00);
 }
 
 .card-relationparts p{
@@ -260,7 +280,7 @@ section{
     display: block;
     position: relative;
     height: 55px;
-    width: 180px;
+    width: 200px;
     /* background-color: #10c9c3; */
     background-color: #35aef4;
 
@@ -274,6 +294,12 @@ section{
     line-height: 55px;
     text-decoration: none;
     text-align: center;
+}
+
+.button-relationparts:hover{
+    border: solid 2px #35aef4;
+    background-color: #ffffff;
+    color: #0093e8;
 }
 
 /* /////////////////////// */
@@ -348,9 +374,9 @@ section{
 
 .icons-block-payment{
     display: flex;
-    justify-content:end;
+    justify-content:center;
     position: relative;
-    margin-top: 10px;
+    margin-top:15px;
 }
 
 .icon-payment{
