@@ -28,7 +28,6 @@ section{
 
 .logo{
     display: flex;
-    cursor: pointer;
 }
 
 
@@ -58,25 +57,14 @@ section{
 .banner{
     display: grid;
     position: relative;
-    /* background-image: url(Resourses/AF_Photo_11.jpg); */
-    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/AF_Photo_15.jpg);
+    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/MainBannner_1.jpg);
     /* background-image: linear-gradient(to bottom right, #CCFFAA, #1E5B53), url(Resourses/AF_Photo_11.jpg); */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     z-index: 3;
 }
 
-/* .banner::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(103, 103, 103, 0.678);
-    } */
-    
 .content-banner{
     position: relative;
     display: flex;
@@ -84,15 +72,15 @@ section{
     align-items: center;
     justify-content:center;
     width: 100%;
-    padding: 15% 0;
+    padding: 4% 0;
 
     font-family: 'Montserrat', sans-serif;
 }
 
 .title-banner{
     position: relative;
-    color: #177efd;
-    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.455),
+    color: #2989ff;
+    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.418),
                  10px 20px 5px rgba(0, 0, 0, 0.223),
                  -10px 20px 5px rgba(0, 0, 0, 0.145);
 
@@ -128,7 +116,7 @@ section{
 }
 
 .image-home{
-    display: block;
+    display: flex;
     height: 400px;
     width: 400px;
     filter: drop-shadow(4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38));
@@ -165,6 +153,7 @@ section{
 .description-home{
     margin-top: 20px;
 }
+
 .specification-home{
     margin-top: 16px;
 }
@@ -209,7 +198,6 @@ section{
     width: 100%;
     height: auto;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 5.5%;
 }
 
 .title-relationparts{
@@ -230,6 +218,7 @@ section{
     line-height: 60px; 
     font-weight: 600;
     text-align: center;
+    padding-bottom: 1.5%;
 }
 
 .cards-relationparts{
@@ -272,6 +261,7 @@ section{
 }
 
 .card-relationparts p{
+    margin-top: 20px;
     font-weight: 500;
     font-size: 16px;
 }
@@ -308,7 +298,7 @@ section{
     width: 100%;
     height: auto;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 6%;
+    padding-top: 5.5%;
 }
 
 .terms_conditions-container{
@@ -333,11 +323,8 @@ section{
     margin-top: 10px;
 }
 
-/* //////////////////////// */
 
-
-/* SECTION PAYMENT & SHIPPING */
-
+/* SECTION SHIPPING */
 .title-payment{
 
     /* letter-spacing: 0.4px; */
@@ -402,8 +389,7 @@ section{
     width: 100%;
     height: auto;
     font-family: 'Montserrat', sans-serif;
-    /* margin: 100px 0; */
-    padding-top: 6.5%;
+    padding-top: 40px;
 }
 
 .return-container{
@@ -450,7 +436,6 @@ section{
 }
 
 
-
 /* SECTION CONTACT INFO */
 .contactInfo{
     position: relative;    
@@ -458,7 +443,7 @@ section{
     height: auto;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 100px;
-    padding-top: 6.5%;
+    padding-top: 70px;
 }
 
 .contactInfo-container{
@@ -539,12 +524,11 @@ section{
     align-items: center;
     justify-content: space-around;
     height: auto;   
-
     padding: 4% 0;
 }
 
 .title-contact{
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0px;
     color: #ffffff;
     font-weight: 500;
@@ -552,7 +536,7 @@ section{
 }
 
 .contact-theme{
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0px;
     line-height: 24px;
     color: #bcbcbc;
