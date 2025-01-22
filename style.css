@@ -126,7 +126,6 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    filter: drop-shadow(4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38));
 }
 
 .image-home img{
