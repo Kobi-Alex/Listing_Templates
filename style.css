@@ -16,9 +16,9 @@ section{
 /* NAVBAR */
 .navbar{
     display: flex;
-    position: fixed;
+    position: relative;
     width: 100%;
-    height: 90px;
+    height: 120px;
     justify-content: space-between;
     align-items: center;
     padding: 8px 10% 8px 7%;
@@ -29,7 +29,6 @@ section{
 .logo{
     display: flex;
 }
-
 
 .navbar ul li{
     display: inline-block;
@@ -55,19 +54,18 @@ section{
 
 /* SECTION BANNER */
 .banner{
-    display: grid;
+    display: flex;
     position: relative;
-    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/MainBannner_1.jpg);
-    /* background-image: linear-gradient(to bottom right, #CCFFAA, #1E5B53), url(Resourses/AF_Photo_11.jpg); */
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: linear-gradient(to bottom right, #8b878737, #343434c5), url(Resourses/AF_Banner.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
     background-attachment: fixed;
-    z-index: 3;
+    /* z-index: 3; */
 }
 
 .content-banner{
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content:center;
@@ -79,12 +77,13 @@ section{
 
 .title-banner{
     position: relative;
-    color: #2989ff;
-    text-shadow: 0px 15px 5px rgba(47, 47, 47, 0.418),
+    color: #1888ff;
+    /* #227bff #2989ff*/
+    text-shadow: 0px 15px 5px rgba(58, 58, 58, 0.418),
                  10px 20px 5px rgba(0, 0, 0, 0.223),
                  -10px 20px 5px rgba(0, 0, 0, 0.145);
 
-    font-size: 96px;
+    font-size: 98px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -92,7 +91,7 @@ section{
 .text-banner{
     position: relative;
     color: #fbfbfb;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 500;
     margin: 12px;
     text-transform: uppercase;
@@ -118,7 +117,8 @@ section{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 800px;
+    height: 600px;
+    margin-bottom: 60px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -126,7 +126,6 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    filter: drop-shadow(4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38));
 }
 
 .image-home img{
