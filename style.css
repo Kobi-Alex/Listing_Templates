@@ -120,8 +120,8 @@ section{
 
 .image-home{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 500px;
 }
 
 .image-home img{
